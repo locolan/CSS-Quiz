@@ -1,0 +1,211 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+.selected{
+  background-color:#D41605;
+}
+
+.highlighted{
+  color:#EF1506;
+  font-family: serif;
+}
+.unhighlighted{
+  color: #D7D7D4;
+  font-family: serif;
+}
+
+/* ------------------------------------------------------------ */
+#container{
+  background-color: #CAC9C3;
+}
+
+/* ------------------------------------------------------------ */
+
+#top_bar_1{
+  display: block;
+  margin: 0px;
+  padding-bottom: 5px;
+  width:100%;
+  background-color:#313131;
+}
+
+#top_bar_2{
+  display: block;
+  margin: 0px;
+  padding-bottom: 3px;
+  width: 100%;
+  background-color:#FB1807;
+}
+
+/* ------------------------------------------------------------ */
+
+#wonder{
+  float:left;
+  background: url("design.png") -41px -47px;
+  height: 0px;
+  width: 272px;
+  padding-top: 52px;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 130px;
+
+  /*314 99*/
+}
+
+/*------------------------------------------*/
+
+#navbar{
+  float:right;
+  margin-right: 40px;
+  margin-top:40px;
+  background-color:#2A2A2A;
+  color:#FFFEFE;
+  padding:16px;
+}
+
+#nav_links{
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 14px;
+}
+
+#navbar li{
+  font-family: serif;
+  display:inline;
+  padding: 14px;
+}
+
+/*------------------------------------------*/
+
+#splash{
+  display:block;
+  margin-bottom: 40px;
+}
+
+#image_splash{
+  float:left;
+  background: url("design.png") -41px -190px;
+  height: 0px;
+  width: 621px;
+  padding-top: 286px;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#text_splash{
+  float:left;
+  margin-top:80px;
+  margin-left:20px;
+  color:#262626;
+  font-family: serif;
+  font-size:x-large;
+}
+
+/*------------------------------------------*/
+
+#recent_work{
+  background-color:#1D1D1D;
+}
+
+#recent_work li{
+  display:inline;
+}
+
+/*------------------------------------------*/
+
+#faces li{
+  float:left;
+  display:block;
+  height: 0px;
+  width: 221px;
+  padding-top: 240px;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+#stormtrooper{
+  background: url("design.png") -41px -594px;
+}
+
+#darth_vader{
+  background: url("design.png") -282px -594px;
+}
+
+#batman{
+  background: url("design.png") -522px -594px;
+}
+
+#luchador{
+  background: url("design.png") -761px -594px;
+}
+
+/*------------------------------------------*/
+
+#
+
+#news{
+  width:40%;
+  display: inline-block;
+}
+
+.news_header_buttons{
+  float: right;
+}
+
+#news_video li{
+  display:inline-block;
+}
+
+#news_header{
+  background-color:#1B1B1B;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+#back{
+  float:right;
+  display:block;
+  background: url("design.png") -455px -915px;
+  height: 0px;
+  width: 20px;
+  padding-top: 22px;
+  overflow: hidden;
+}
+
+#forward{
+  background: url("design.png") -480px -915px;
+  height: 0px;
+  width: 20px;
+  padding-top: 22px;
+  overflow: hidden;
+}
+
+#recent_video{
+  width:40%;
+  display: inline-block;
+}
+
+#recent_video_header{
+  background-color:#1D1D1D;
+}
+
+
+
+
+
+/*------------------------------------------*/
