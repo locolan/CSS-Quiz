@@ -119,6 +119,7 @@
 
 #recent_work{
   background-color:#1D1D1D;
+  width:75%;
 }
 
 #recent_work li{
@@ -156,10 +157,16 @@
 
 /*------------------------------------------*/
 
-#
+#news_video{
+  display: block;
+}
 
+#news_video li{
+  display:inline-block;
+}
 #news{
-  width:40%;
+  margin-left:40px;
+  width:35%;
   display: inline-block;
 }
 
@@ -167,14 +174,11 @@
   float: right;
 }
 
-#news_video li{
-  display:inline-block;
-}
+
 
 #news_header{
+  display: inline-block;
   background-color:#1B1B1B;
-  padding-top: 1px;
-  padding-bottom: 1px;
 }
 
 #back{
@@ -201,6 +205,10 @@
 }
 
 #recent_video_header{
+  float: right;
+  display: inline-block;
+  margin-right:40px;
+  padding-right:150px;
   background-color:#1D1D1D;
 }
 
